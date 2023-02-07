@@ -1,0 +1,11 @@
+.grid-wrapper {
+    width: 100%;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  
+  .menu {
+    grid-column: 1/13;
+    position: fixed;
+  }
